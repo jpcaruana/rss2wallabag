@@ -29,7 +29,7 @@ with open("config.yaml", 'r') as stream:
 production = "debug" not in config or not config["debug"]
 
 ch = logging.StreamHandler(stream=sys.stdout)
-ch.setLevel(logging.WARNING if production else logging.DEBUG)
+ch.setLevel(logging.INFO if production else logging.DEBUG)
 ch.setFormatter(formatter)
 logger.addHandler(ch)
 

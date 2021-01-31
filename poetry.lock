@@ -56,14 +56,14 @@ python-versions = "*"
 
 [[package]]
 name = "feedparser"
-version = "6.0.0b1"
+version = "6.0.2"
 description = "Universal feed parser, handles RSS 0.9x, RSS 1.0, RSS 2.0, CDF, Atom 0.3, and Atom 1.0 feeds"
 category = "main"
 optional = false
-python-versions = "*"
+python-versions = ">=3.6"
 
 [package.dependencies]
-sgmllib3k = {version = "*", markers = "python_version >= \"3.0\""}
+sgmllib3k = "*"
 
 [[package]]
 name = "idna"
@@ -182,7 +182,7 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.7"
-content-hash = "aa2f2ea4403081a4fe931d7767566052f601b3c29ef107eb0115d209f2e8b0cc"
+content-hash = "f0878b94eb9f555c2f6fada198bb77b09a14657d997947fb4aafe0536953c7b3"
 
 [metadata.files]
 aiohttp = [
@@ -216,8 +216,8 @@ chardet = [
     {file = "chardet-3.0.4.tar.gz", hash = "sha256:84ab92ed1c4d4f16916e05906b6b75a6c0fb5db821cc65e70cbd64a3e2a5eaae"},
 ]
 feedparser = [
-    {file = "feedparser-6.0.0b1-py2.py3-none-any.whl", hash = "sha256:87185443d6e12cf870125bdc9211168c60895e7dd7209b5c082897ddb1b11efb"},
-    {file = "feedparser-6.0.0b1.tar.gz", hash = "sha256:150ccca4cfc3481f7ff503988a91bbdbbbc3406d6444bfe9cfe6c1001d378e73"},
+    {file = "feedparser-6.0.2-py3-none-any.whl", hash = "sha256:f596c4b34fb3e2dc7e6ac3a8191603841e8d5d267210064e94d4238737452ddd"},
+    {file = "feedparser-6.0.2.tar.gz", hash = "sha256:1b00a105425f492f3954fd346e5b524ca9cef3a4bbf95b8809470e9857aa1074"},
 ]
 idna = [
     {file = "idna-2.8-py2.py3-none-any.whl", hash = "sha256:ea8b7f6188e6fa117537c3df7da9fc686d485087abf6ac197f9c46432f7e4a3c"},

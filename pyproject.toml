@@ -10,7 +10,7 @@ wallabag-api = "^1.2.3"
 feedparser = "6.0.0b1"
 PyYAML = "^5.4"
 requests = "^2.25.1"
-sentry-sdk = "^0.13.5"
+sentry-sdk = "^0.19.5"
 
 [tool.poetry.dev-dependencies]
 

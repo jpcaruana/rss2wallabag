@@ -8,7 +8,7 @@ authors = ["Lukas Winkler <git@lw1.at>"]
 python = "^3.7"
 wallabag-api = "^1.2.3"
 feedparser = "6.0.0b1"
-PyYAML = "^5.3"
+PyYAML = "^5.4"
 requests = "^2.25.1"
 sentry-sdk = "^0.13.5"
 
